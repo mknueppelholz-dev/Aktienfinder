@@ -14,12 +14,21 @@ Die Daten kommen kostenlos von Yahoo Finance (über `yfinance`).
    Das schwarze Fenster offen lassen, zum Beenden schließen.
 
 ### Was die App kann
-- **🔍 Aktien finden:** DAX, Dow Jones, Value-Klassiker oder eigene Ticker durchsuchen,
-  Ergebnis als Tabelle mit Punkten, Export als CSV für Excel
-- **📊 Einzelanalyse:** eine Aktie im Detail: Ampel, Checkliste, innerer Wert,
-  Kursverlauf und Free Cashflow/Gewinn als Diagramm
-- **Strategien:** *Buffett streng (KGV < 10)*, *Buffett Qualität*, *Graham Deep Value*,
-  *Locker*. Alle Regler lassen sich zusätzlich frei anpassen.
+- **🌍 Welt-Scanner:** durchsucht *alle* börsennotierten Aktien weltweit (oder ausgewählte
+  Länder) direkt über den Yahoo-Screener. Regeln als An/Aus-Knöpfe, Ergebnis als Karten
+  oder Tabelle, „⚡ Buffett-Score“ für die Top-Treffer.
+- **🏆 Index-Check:** DAX, Dow Jones, Value-Klassiker oder eigene Ticker mit allen
+  10 Regeln inkl. innerem Wert (DCF) prüfen.
+- **🔬 Einzelanalyse:** Buffett-Score-Ring, Abzeichen (🏷️ Schnäppchen, 🏰 Burggraben,
+  🛡️ Festung, 💰 Cash-Maschine …), Checkliste, Kursverlauf, Cashflow-Diagramm.
+- **📚 Lexikon:** jede Kennzahl einfach erklärt.
+- **Strategien:** 🎩 Buffett streng (KGV < 10), 💎 Buffett Qualität, 🔎 Graham Deep Value,
+  🎈 Locker. Alle Grenzwerte lassen sich zusätzlich per Regler anpassen.
+
+**Welt-Scanner vs. Index-Check:** Der Welt-Scanner filtert auf Yahoos Servern und ist
+deshalb blitzschnell, kennt aber nur die aktuellen Kennzahlen (letzte 12 Monate).
+Mehrjahres-Prüfungen und den inneren Wert gibt es per „⚡ Buffett-Score“ bzw. in der
+Einzelanalyse.
 
 ## Für Fortgeschrittene
 ```bash
